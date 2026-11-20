@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a vulnerability
+    url: https://github.com/beacons-gg/.github/blob/main/SECURITY.md
+    about: Report vulnerabilities privately through the repository's Security tab, never in an issue.
+  - name: Documentation
+    url: https://beacons.gg/docs
+    about: Guides for building a game and running a server.

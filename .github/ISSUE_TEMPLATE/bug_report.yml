@@ -1,0 +1,45 @@
+name: Bug report
+description: Something in Beacon behaves differently from its docs.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Report a vulnerability privately through the repository's **Security** tab, never here.
+        SECURITY.md in this organization's .github repository gives the other channels.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The smallest set of steps, requests or code that shows the bug.
+      placeholder: |
+        1. Start a server with `docker compose up`.
+        2. Send `GET /rooms/<id>`.
+        3. The server answers 500.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The release you ran, such as server v0.4.0 or @beaconsgg/client-sdk 0.4.0.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: The operating system, Node version, browser or device, and anything in front of the server such as a proxy.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: The relevant log lines or error output. Remove keys, tokens and personal data first.
+      render: text

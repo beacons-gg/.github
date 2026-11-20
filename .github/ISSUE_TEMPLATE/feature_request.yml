@@ -1,0 +1,32 @@
+name: Feature request
+description: A change or an addition to Beacon.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What you are trying to do and what stops you today.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: The change you propose
+      description: How Beacon could solve the problem. An API shape or an example helps.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Other ways you considered, and workarounds you use now.
+  - type: dropdown
+    id: who
+    attributes:
+      label: Who you are
+      options:
+        - A game developer
+        - A server operator
+        - Both
+        - Neither
