@@ -1,14 +1,38 @@
-# Beacon
+# [Beacon](https://beacons.gg/)
 
-[beacons.gg](https://beacons.gg) is Beacon's home page. The site explains how Beacon works, and has
-the [docs](https://beacons.gg/docs) and [Beacon Hosting](https://beacons.gg/hosting).
+Beacon is a decentralized server network for location-based games. Beacon gives developers shared
+infrastructure for building games around real-world places, without having to build and operate
+their own multiplayer backend.
 
-Beacon is a network of servers for games played at real places. Players place **rooms** on the map
-and put signed **items** in them. Other players find those rooms and take the items out. A Beacon
-server keeps the rooms consistent for every player who can see the same place.
+Using the [Beacon Client SDK](https://www.npmjs.com/package/@beaconsgg/client-sdk), games can create
+rooms, manage items, coordinate player interactions, and work with persistent world state across
+multiple servers. Each game defines its own mechanics and data, while Beacon handles player
+identities, signed operations, and shared state consistency.
 
-Anyone can run a server. A game shows its players every server they trust, so a game built on Beacon
-has no home server. The game's map is put together from servers that many people run.
+## One network, many games
+
+- **Build with the SDK.** Integrate Beacon into your game using the
+  [Client SDK](https://www.npmjs.com/package/@beaconsgg/client-sdk). Player identities, server
+  discovery, shared state, and live updates are handled by Beacon, leaving you to focus on your
+  game's mechanics and experience.
+- **Share infrastructure.** Multiple games can use the same servers. Each game maintains its own
+  rooms and items, with the ability to open up specific interactions to other games.
+- **Decentralized by design.** There is no central game server or single network owner. Players
+  choose which servers they trust, and games combine those servers into a single map. Anyone can
+  operate a server for their community, region, or game.
+- **Host it your way.** Run your own server using the open-source
+  [Beacon Server](https://github.com/beacons-gg/beacon.server), use servers operated by other
+  communities, or deploy your servers through [Beacon Hosting](https://beacons.gg/hosting).
+- **Grow with the network.** New servers expand the map for every game they admit. New games can
+  start using infrastructure that's already running.
+
+## Get started
+
+Explore the [Beacon homepage](https://beacons.gg/), read the
+[developer documentation](https://beacons.gg/docs), integrate the
+[Client SDK](https://www.npmjs.com/package/@beaconsgg/client-sdk), or get started with
+[Beacon Hosting](https://beacons.gg/hosting). Server operators manage their servers in the
+[operator console](https://console.beacons.gg).
 
 ## Repositories
 
@@ -21,12 +45,8 @@ has no home server. The game's map is put together from servers that many people
 The packages are on npm under the [`@beaconsgg`](https://www.npmjs.com/org/beaconsgg) scope. The
 server and console images are on GitHub Container Registry under `ghcr.io/beacons-gg`.
 
-## Start here
+## Contact
 
-- Learn how Beacon works: [beacons.gg](https://beacons.gg)
-- Build a game: [beacons.gg/docs/building-a-game](https://beacons.gg/docs/building-a-game)
-- Run a server: [beacons.gg/docs/run-a-server](https://beacons.gg/docs/run-a-server)
-- Manage a server: [console.beacons.gg](https://console.beacons.gg)
 - Report a bug or ask for a feature: [CONTRIBUTING.md](https://github.com/beacons-gg/.github/blob/main/CONTRIBUTING.md)
 - Report a vulnerability: [SECURITY.md](https://github.com/beacons-gg/.github/blob/main/SECURITY.md)
 - Anything else: `opensource@beacons.gg`
