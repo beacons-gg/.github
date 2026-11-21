@@ -1,5 +1,8 @@
 # Beacon
 
+[beacons.gg](https://beacons.gg) is Beacon's home page. The site explains how Beacon works, and has
+the [docs](https://beacons.gg/docs) and [Beacon Hosting](https://beacons.gg/hosting).
+
 Beacon is a network of servers for games played at real places. Players place **rooms** on the map
 and put signed **items** in them. Other players find those rooms and take the items out. A Beacon
 server keeps the rooms consistent for every player who can see the same place.
@@ -20,6 +23,7 @@ server and console images are on GitHub Container Registry under `ghcr.io/beacon
 
 ## Start here
 
+- Learn how Beacon works: [beacons.gg](https://beacons.gg)
 - Build a game: [beacons.gg/docs/building-a-game](https://beacons.gg/docs/building-a-game)
 - Run a server: [beacons.gg/docs/run-a-server](https://beacons.gg/docs/run-a-server)
 - Manage a server: [console.beacons.gg](https://console.beacons.gg)
